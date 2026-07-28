@@ -73,7 +73,7 @@ Individual **English** and **Russian** lessons — online and in person. For adu
 
 ---
 
-## 🇪�� Español
+## 🇪🇸 Español
 
 Clases individuales de **inglés** y **ruso** — online y presencial. Para adultos, expats y profesionales de IT.
 
