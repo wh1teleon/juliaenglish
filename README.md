@@ -12,7 +12,6 @@
 
 ![English](https://img.shields.io/badge/English-EFL-0d9488?style=flat-square)
 ![Russian](https://img.shields.io/badge/Russian-RFL-cc0000?style=flat-square)
-![Levels](https://img.shields.io/badge/Levels-A1–B2-f59e0b?style=flat-square)
 ![Online](https://img.shields.io/badge/Online-Worldwide-6366f1?style=flat-square)
 ![Offline](https://img.shields.io/badge/Offline-Montevideo-14b8a6?style=flat-square)
 
@@ -27,7 +26,7 @@ Individual **English** and **Russian** lessons — online and in person. For adu
 | What | Details |
 |------|---------|
 | 🎯 Conversational English | IT interviews, remote work, relocation |
-| 🇷🇺 Russian as a Foreign Language | Beginners and intermediate, A1–B2 |
+| 🇷🇺 Russian as a Foreign Language | Beginners and intermediate |
 | 💻 Online | Google Meet or Telegram, anywhere in the world |
 | 🏙️ Offline | In person in Montevideo, Uruguay |
 | 🗣️ Conversation Club | Launching soon — online & in Montevideo |
@@ -54,7 +53,7 @@ Individual **English** and **Russian** lessons — online and in person. For adu
 | Что | Подробности |
 |-----|-------------|
 | 🎯 Разговорный английский | IT-интервью, удалённая работа, релокация |
-| 🇷🇺 Русский как иностранный | Начинающие и продолжающие, A1–B2 |
+| 🇷🇺 Русский как иностранный | Начинающие и продолжающие |
 | 💻 Онлайн | Google Meet или Telegram, из любой точки мира |
 | 🏙️ Очно | В Монтевидео, Уругвай |
 | 🗣️ Разговорный клуб | Скоро старт — онлайн и офлайн |
@@ -76,7 +75,7 @@ Individual **English** and **Russian** lessons — online and in person. For adu
 
 ## 🇪�� Español
 
-Clases individuales de **inglés** y **ruso** — online y presencial. Para adultos, expats y profesionales de IT. Niveles A1–B2.
+Clases individuales de **inglés** y **ruso** — online y presencial. Para adultos, expats y profesionales de IT.
 
 📩 **[Reservar clase de prueba →](https://juliaenglish.vercel.app/)**
 
@@ -84,7 +83,7 @@ Clases individuales de **inglés** y **ruso** — online y presencial. Para adul
 
 ## 🇵🇹 Português
 
-Aulas individuais de **inglês** e **russo** — online e presencial. Para adultos, expatriados e profissionais de TI. Níveis A1–B2.
+Aulas individuais de **inglês** e **russo** — online e presencial. Para adultos, expatriados e profissionais de TI.
 
 📩 **[Agendar aula experimental →](https://juliaenglish.vercel.app/)**
 
