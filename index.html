@@ -80,6 +80,49 @@
       margin: 0 auto;
     }
 
+    .hero-grid {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 2rem;
+      align-items: center;
+      justify-items: center;
+    }
+
+    .hero-text {
+      text-align: left;
+      align-self: center;
+    }
+
+    .hero-photo img {
+      width: 100%;
+      max-width: 380px;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      display: block;
+      object-fit: cover;
+      aspect-ratio: 3 / 4;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        text-align: center;
+        padding: 3rem 1rem 2.5rem;
+      }
+      .hero-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+      .hero-photo img {
+        max-width: 320px;
+        margin: 0 auto;
+      }
+      .hero-text {
+        text-align: center;
+      }
+    }
+
     .hero-badge {
       display: inline-block;
       background: rgba(255, 255, 255, 0.15);
@@ -364,9 +407,11 @@
 
     .about-content {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       gap: 2.5rem;
       align-items: center;
+      justify-items: center;
+      text-align: center;
     }
 
     .about-text p {
@@ -660,12 +705,17 @@
 
 <body>
   <header class="hero">
-    <div class="hero-content">
-      <h1 data-i18n="hero.title">Репетитор английского языка онлайн. Индивидуальные уроки для взрослых</h1>
-      <p class="hero-sub" data-i18n="hero.sub">Индивидуальные уроки английского и русского языка. Онлайн и очно, для взрослых и IT-специалистов.</p>
-      <div class="hero-actions">
-        <a href="#contact" class="btn btn-primary" data-i18n="hero.btn.contact">Связаться со мной</a>
-        <a href="#club" class="btn btn-secondary" data-i18n="hero.btn.club">Разговорный клуб</a>
+    <div class="hero-grid">
+      <div class="hero-text">
+        <h1 data-i18n="hero.title">Репетитор английского языка онлайн. Индивидуальные уроки для взрослых</h1>
+        <p class="hero-sub" data-i18n="hero.sub">Индивидуальные уроки английского и русского языка. Онлайн и очно, для взрослых и IT-специалистов.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary" data-i18n="hero.btn.contact">Связаться со мной</a>
+          <a href="#club" class="btn btn-secondary" data-i18n="hero.btn.club">Разговорный клуб</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="foto.jpg" alt="Julia — English and Russian teacher" loading="lazy" />
       </div>
     </div>
   </header>
@@ -728,10 +778,6 @@
           <p data-i18n="about.p1"><strong>Привет! Я Юлия — опытный преподаватель английского и русского.</strong></p>
           <p data-i18n="about.p2">Преподаю английский как иностранный (EFL) и русский как иностранный (RFL) для всех уровней — онлайн и очно. Моя цель — помочь вам говорить естественно, уверенно и с удовольствием.</p>
           <p data-i18n="about.p3">Работаю со взрослыми и подростками от 14 лет. Помогу начать с нуля или улучшить беглость для работы в международных компаниях и релокации.</p>
-        </div>
-        <div class="about-image">
-          <img src="foto.jpg" alt="Julia — English and Russian teacher in Montevideo, Uruguay" width="480" height="640"
-            loading="lazy" />
         </div>
       </div>
     </section>
